@@ -42,6 +42,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 30,
             ),
             TextField(
+              obscure text: true, 
               decoration: InputDecoration(
                   prefixIcon: Icon(Icons.phone),
                   border: OutlineInputBorder(
